@@ -11,6 +11,7 @@
   "files": [
     "zoomies.darwin-arm64.node"
   ],
+  "description": "Blazingly fast bloom filter written in rust, with typescript bindings",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
