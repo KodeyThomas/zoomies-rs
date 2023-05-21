@@ -1,0 +1,18 @@
+{
+  "name": "@kodeythomas/zoomies-rs-darwin-x64",
+  "version": "0.1.0-alpha.1",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "zoomies.darwin-x64.node",
+  "files": [
+    "zoomies.darwin-x64.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

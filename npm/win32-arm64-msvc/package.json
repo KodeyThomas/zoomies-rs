@@ -1,0 +1,18 @@
+{
+  "name": "@kodeythomas/zoomies-rs-win32-arm64-msvc",
+  "version": "0.1.0-alpha.1",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "zoomies.win32-arm64-msvc.node",
+  "files": [
+    "zoomies.win32-arm64-msvc.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

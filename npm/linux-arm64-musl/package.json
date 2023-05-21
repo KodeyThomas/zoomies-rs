@@ -1,0 +1,21 @@
+{
+  "name": "@kodeythomas/zoomies-rs-linux-arm64-musl",
+  "version": "0.1.0-alpha.1",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "zoomies.linux-arm64-musl.node",
+  "files": [
+    "zoomies.linux-arm64-musl.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "musl"
+  ]
+}

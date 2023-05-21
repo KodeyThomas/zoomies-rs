@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "zoomies"
+version = "0.1.0-alpha.1"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+bitvec = "1.0.1"
+napi = { version = "2.12.0", default-features = false, features = ["napi6"] }
+napi-derive = "2.12.2"
+xxhash-rust = { version = "0.8.6", features = ["xxh64"] }
+
+[build-dependencies]
+napi-build = "2.0.1"
+
+[profile.release]
+lto = true
